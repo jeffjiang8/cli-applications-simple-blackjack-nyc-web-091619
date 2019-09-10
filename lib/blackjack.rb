@@ -64,7 +64,7 @@ def runner
   welcome
   total_card = initial_round
   if total_card < 21 
-    
+    prompt_user
   
 end
     
