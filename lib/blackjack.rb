@@ -37,6 +37,7 @@ end
 
 def hit? (total_card)
   # code hit? here
+  prompt_user
   valid_command = ["h","s"]
   user_input = get_user_input
   if user_input == "h"
