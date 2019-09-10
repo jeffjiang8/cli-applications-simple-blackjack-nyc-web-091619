@@ -63,8 +63,8 @@ def runner
   # code runner here
   welcome
   total_card = initial_round
-  if total_card < 21 
-    prompt_user
+  until total_card > 21
+   total_card
   
 end
     
