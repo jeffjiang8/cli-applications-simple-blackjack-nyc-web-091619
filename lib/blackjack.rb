@@ -37,7 +37,8 @@ end
 
 def hit? (total_card)
   # code hit? here
-  user_input = ["h","s"]
+  valid_command = ["h","s"]
+  user_input = gets.chomp
   if user_input == "h"
     total_card += user_input
     elsif user_input == "s"
